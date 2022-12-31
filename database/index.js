@@ -14,7 +14,7 @@ pool.connect((err, client, done) => {
     console.log(`Error connecting to db, ${err}`);
     process.exit(-1)
   } else {
-    console.log(`Connected to ${client.user}@${client.host} using database ${client.database} on port ${client.port} 😄`);
+    console.log('\x1b[36m%s\x1b[0m', `Connected to ${client.user}@${client.host} using database ${client.database} on port ${client.port} 😄`);
   }
   done();
 })

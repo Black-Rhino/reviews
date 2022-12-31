@@ -46,3 +46,13 @@ COPY reviews FROM '/home/linhwatson/immersive/reviews/database/reviews.csv' DELI
 COPY reviews_photos FROM '/home/linhwatson/immersive/reviews/database/reviews_photos.csv' DELIMITER ',' CSV HEADER;
 COPY characteristics FROM '/home/linhwatson/immersive/reviews/database/characteristics.csv' DELIMITER ',' CSV HEADER;
 COPY characteristics_reviews FROM '/home/linhwatson/immersive/reviews/database/characteristic_reviews.csv' DELIMITER ',' CSV HEADER;
+
+CREATE INDEX idx_reviews_product_id ON reviews (product_id, rating, recommend);
+CREATE INDEX idx_characteristics_product_id ON characteristics (product_id, name);
+CREATE INDEX idx_characteristics_reviews_characteristic_id ON characteristics_reviews (characteristic_id, value);
+CREATE INDEX idx_reviews_photos_review_id ON reviews_photos (review_id);
+
+SELECT setval('reviews_id_seq', (SELECT MAX(id) FROM reviews));
+SELECT setval('characteristics_id_seq', (SELECT MAX(id) FROM characteristics));
+SELECT setval('characteristics_reviews_id_seq', (SELECT MAX(id) FROM characteristics_reviews));
+SELECT setval('reviews_photos_id_seq', (SELECT MAX(id) FROM reviews_photos));
