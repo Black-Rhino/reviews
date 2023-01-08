@@ -1,6 +1,8 @@
 node_modules
+.nyc_output
 .env
 reviews.csv
 reviews_photos.csv
 characteristics.csv
 characteristic_reviews.csv
+postgres.pgsql
