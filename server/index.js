@@ -14,7 +14,15 @@ app.use(express.json());
 const host = process.env.EXPRESS_HOST || 'localhost';
 const port = process.env.EXPRESS_PORT || 3000;
 
-app.use('/reviews/', router);
+app.use('/reviews', router);
+
+app.get(`/${process.env.LOADER_IO}/`, (req, res) => {
+  res.send(`${process.env.LOADER_IO}`)
+});
+
+app.get('/', (req, res) => {
+  res.send('Hello SDC!');
+});
 
 app.listen(port, () => {
   console.log('\x1b[33m%s\x1b[0m', `Environment: ${process.env.NODE_ENV}`);
