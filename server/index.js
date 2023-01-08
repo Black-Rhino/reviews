@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 const host = process.env.EXPRESS_HOST || 'localhost';
-const port = process.env.EXPRESS_PORT || 3000;
+const port = process.env.EXPRESS_PORT || '3000';
 
 app.use('/reviews', router);
 
