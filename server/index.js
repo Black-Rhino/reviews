@@ -3,13 +3,13 @@ const morgan = require('morgan');
 const app = express();
 const router = require('./router.js');
 
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config();
-}
+// if (process.env.NODE_ENV !== 'production') {
+//   require('dotenv').config();
+// }
 
 app.use(morgan('development'));
 app.use(express.json());
-
+require('dotenv').config();
 
 const host = process.env.EXPRESS_HOST || 'localhost';
 const port = process.env.EXPRESS_PORT || 3000;
