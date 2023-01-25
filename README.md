@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple steps:
 ###### Instructions
 1. Fork and then Clone the repo to your GitHub.
    ```
-   git clone https://github.com/black-rhino/reviews.git
+   git clone https://github.com/Black-Rhino/reviews.git
    ```
 2. Install all NPM packages.
    ```
