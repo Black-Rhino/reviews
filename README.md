@@ -36,6 +36,27 @@ The service was incrementally optimized through query writing, database indexing
 Stress testing with k6 showed that indexing improved query time by 90%. Each of my queries had an average latency of less than 20 ms for 100 users and 220 ms for 1000 users with a 0.0% error rate. Cloud testing with Loader.io showed that the max number of requests my system could handle with one database server and one service layer was around 100 requests with an average latency of 2 seconds. Horizontally scaling by using NGINX as my load balancer and adding one more server was able to improve latency by about 60% with a 0.0% error rate. The server and Postgres database were deployed on separate AWS EC2 instances.
 
 ## :pencil2: Installation
+To get a local copy up and running follow these simple steps:
+###### Pre-Installation Requirements
+    Node
+    NPM
+
+###### Instructions
+1. Fork and then Clone the repo to your GitHub.
+   ```
+   git clone https://github.com/black-rhino/reviews.git
+   ```
+2. Install all NPM packages.
+   ```
+   npm install
+    ```
+3. Start the server.
+   ```
+   npm run server
+    ```
+5. Rename the `example.config.js` file to `config.js`.
+6. Acquire a github personal access token to access the API and insert token into `config.js`.
+7. Navigate to your web browser: http://localhost:3000/
 
 ## :rocket: Routes
 
