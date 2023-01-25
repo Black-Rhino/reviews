@@ -58,6 +58,15 @@ To get a local copy up and running follow these simple steps:
 
 ## :rocket: Routes
 
+| Request Type | Endpoint                    | Description                                                                | Status |
+|--------------|-----------------------------|----------------------------------------------------------------------------|:--------:|
+| GET          | /reviews/:product_id/list   | Returns a list of reviews for a product, excluding any reported reviews    | 200    |
+| GET          | /reviews/:product_id/meta   | Returns review metadata for a given product                                | 200    |
+| POST         | /reviews/:product_id        | Adds a review for the given product                                        | 201    |
+| PUT          | /reviews/:review_id/helpful | Updates a review to mark it as helpful                                     | 204    |
+| PUT          | /reviews/:review_id/report  | Updates a review to mark it as reported                                    | 204    |
+| DELETE       | /reviews/:review_id         | Deletes a review                                                           | 204    |
+
 ## :fire: Performance
 
 ## :mag: Roadmap - Future Optimizations
