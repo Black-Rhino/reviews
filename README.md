@@ -25,10 +25,12 @@
 This project was created for the Hack Reactor System Design Capstone.
 
 The task was to build out the back-end system for a product ratings and reviews service for an e-commerce web application. 
-The main objective of this project was scaling and optimizations to handle the incoming traffic. An ETL process was implemented to transfer the full application data set of about 30 millions records into a PostgreSQL database. The goal here was to handle at least 1000 requests per second with a latency of less than 2 seconds and an error rate of less than 1%.
+The main objective of this project was scaling and optimizations to manage the high incoming traffic. An ETL process was implemented to transfer the full application data set of about 30 millions records into a PostgreSQL database. The goal here was to handle at least 1000 requests per second with a latency of less than 2 seconds and an error rate of less than 1%.
 
 
 ## :jigsaw: Project Details
+This service handles requests for displaying product ratings and reviews. This includes the average rating of a product, the number of each star rating, the ability to filter by star rating, and how users rated some of the product's characteristics such as comfort, fit, and quality. The review list can also be sorted by newest, helpful, and relevant. 
+
 
 ## :pencil2: Installation
 
