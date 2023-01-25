@@ -1,15 +1,15 @@
 # System Design Capstone | Reviews API
 
-## Table of Contennts
+## :pushpin: Table of Contents
 
-## Tech Stack
+## :hammer_and_pick: Tech Stack
 
-## Project Overview
+## :telescope: Project Overview
 
-## Project Details
+## :jigsaw: Project Details
 
-## Installation
+## :pencil2: Installation
 
-## Performance
+## :fire: Performance
 
-## Roadmap - Future Optimizations
+## :mag: Roadmap - Future Optimizations
