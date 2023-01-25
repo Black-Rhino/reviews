@@ -6,7 +6,7 @@
 * [Installation](#installation)
 * [Routes](#routes)
 * [Performance](#performance)
-* [Future Optimizations](#roadmap---future-optimizations)
+* [Future Optimizations](##roadmap---future-optimizations)
 
 ## :hammer_and_pick: Tech Stack
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
