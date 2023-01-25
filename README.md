@@ -31,6 +31,9 @@ The main objective of this project was scaling and optimizations to manage the h
 ## :jigsaw: Project Details
 This service handles requests for displaying product ratings and reviews. This includes the average rating of a product, the number of each star rating, the ability to filter by star rating, and how users rated some of the product's characteristics such as comfort, fit, and quality. The review list can also be sorted by newest, helpful, and relevant. 
 
+The service was incrementally optimized through query writing, database indexing, connection pooling, and load balancing to quickly obtain MVP. 
+
+Stress testing with k6 showed that indexing improved query time by 90%. Each of my queries had an average latency of less than 20 ms for 100 users and 220 ms for 1000 users with a 0.0% error rate. Cloud testing with Loader.io showed that the max number of requests my system could handle with one database server and one service layer was around 100 requests with an average latency of 2 seconds. Horizontally scaling by using NGINX as my load balancer and adding one more server was able to improve latency by about 60% with a 0.0% error rate. The server and Postgres database were deployed on separate AWS EC2 instances.
 
 ## :pencil2: Installation
 
