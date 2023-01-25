@@ -5,7 +5,6 @@
 * [Project Details](#jigsaw-project-details)
 * [Installation](#pencil2-installation)
 * [Routes](#rocket-routes)
-* [Performance](#fire-performance)
 * [Future Optimizations](#mag-roadmap---future-optimizations)  
 
 ## :hammer_and_pick: Tech Stack
@@ -146,10 +145,6 @@ To get a local copy up and running follow these simple steps:
     // ...
 }
 ```
-
-
-## :fire: Performance
-
 
 ## :mag: Roadmap - Future Optimizations
 * Implementing a caching system to avoid unnecessary database queries and recalculations
