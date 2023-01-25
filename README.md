@@ -6,7 +6,7 @@
 * [Installation](#installation)
 * [Routes](#routes)
 * [Performance](#performance)
-* [Future Optimizations](##roadmap---future-optimizations)
+* [Future Optimizations](#roadmap---future-optimizations)  
 
 ## :hammer_and_pick: Tech Stack
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -42,3 +42,7 @@ Stress testing with k6 showed that indexing improved query time by 90%. Each of 
 ## :fire: Performance
 
 ## :mag: Roadmap - Future Optimizations
+
+
+
+[Back to Top](#table-of-contents)
