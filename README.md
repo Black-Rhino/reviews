@@ -150,8 +150,11 @@ To get a local copy up and running follow these simple steps:
 
 ## :fire: Performance
 
-## :mag: Roadmap - Future Optimizations
 
+## :mag: Roadmap - Future Optimizations
+* Implementing a caching system to avoid unnecessary database queries and recalculations
+* Considering a separate database for the /GET meta endpoint
+* Running more metrics tests to have a more detailed analysis on where the system performs well and where the bottlenecks are
 
 
 [Back to Top](#pushpin-table-of-contents)
