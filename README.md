@@ -157,4 +157,4 @@ To get a local copy up and running follow these simple steps:
 * Running more metrics tests to have a more detailed analysis on where the system performs well and where the bottlenecks are
 
 
-[Back to Top](#pushpin-table-of-contents)
+[[Back to Top]](#pushpin-table-of-contents)
