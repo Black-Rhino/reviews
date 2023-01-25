@@ -54,9 +54,7 @@ To get a local copy up and running follow these simple steps:
    ```
    npm run server
     ```
-5. Rename the `example.config.js` file to `config.js`.
-6. Acquire a github personal access token to access the API and insert token into `config.js`.
-7. Navigate to your web browser: http://localhost:3000/
+4. Navigate to your web browser: http://localhost:3000/
 
 ## :rocket: Routes
 
