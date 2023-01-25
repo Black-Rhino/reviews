@@ -9,6 +9,7 @@
 
 ## :hammer_and_pick: Tech Stack
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![NodeJS](https://img.shields.io/badge/Node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white)
 ![K6](https://img.shields.io/badge/K6%20-CA4245.svg?&style=for-the-badge&logo=k6&logoColor=white)
@@ -20,6 +21,8 @@
 
 
 ## :telescope: Project Overview
+This project was created for the Hack Reactor System Design Capstone.
+
 
 ## :jigsaw: Project Details
 
