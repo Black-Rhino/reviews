@@ -1,12 +1,12 @@
 # System Design Capstone | Ratings and Reviews API Service
 
 ## :pushpin: Table of Contents
-* [Project Overview](#project-overview)
-* [Project Details](#project-details)
-* [Installation](#installation)
-* [Routes](#routes)
-* [Performance](#performance)
-* [Future Optimizations](#roadmap---future-optimizations)  
+* [Project Overview](#telescope-project-overview)
+* [Project Details](#jigsaw-project-details)
+* [Installation](#pencil2-installation)
+* [Routes](#rocket-routes)
+* [Performance](#fire-performance)
+* [Future Optimizations](#mag-roadmap---future-optimizations)  
 
 ## :hammer_and_pick: Tech Stack
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -45,4 +45,4 @@ Stress testing with k6 showed that indexing improved query time by 90%. Each of 
 
 
 
-[Back to Top](#table-of-contents)
+[Back to Top](#pushpin-table-of-contents)
